@@ -1,0 +1,7 @@
+---
+applications:
+- name: dummy
+  random-route: true
+  memory: 10m
+  buildpack: https://github.com/ryandotsmith/null-buildpack
+  command: './serve.sh'
